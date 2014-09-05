@@ -15,7 +15,9 @@ module RedmineSpentTimeColumn
       end
 
       def remaining_hours
-        @remaining_hours ||= estimated_hours - spent_hours || 0.0
+        sh = spent_hours || 0.0
+        eh = estimated_hours || 0.0
+        @remaining_hours ||= eh - sh || 0.0
       end
 
     end
