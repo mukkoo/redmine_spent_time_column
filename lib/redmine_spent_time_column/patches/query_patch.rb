@@ -3,8 +3,8 @@ module RedmineSpentTimeColumn
     module QueryPatch
 
       def available_columns_with_spent_hours
-        returning available_columns_without_spent_hours do |columns|
-          if project and (User.current.allowed_to?(:view_time_entries, project) or User.current.admin?)
+        if project and (User.current.allowed_to?(:view_time_entries, project) or User.current.admin?)
+          returning available_columns_without_spent_hours do |columns|
             if Setting.plugin_redmine_spent_time_column['enable_spent_hours_column'] == '1'
               columns << QueryColumn.new(:spent_hours,
                 :caption => :label_spent_time,
