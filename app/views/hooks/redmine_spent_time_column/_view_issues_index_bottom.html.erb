@@ -45,7 +45,7 @@
     <% end -%>
     <% if Setting.plugin_redmine_spent_time_column['show_bottom_summary_line_calculated_remaining_hours'] == '1' -%>
         <strong><%= t :label_calculated_remaining_hours %>:</strong> <%= calculated_remaining_hours.round(2) %>
-    <% end -%>
+    <% end -%>,
     <% if Setting.plugin_redmine_spent_time_column['show_bottom_summary_line_remaining_hours'] == '1' -%>
         <strong><%= t :label_remaining_hours %>:</strong> <%= remaining_hours.round(2) %>
     <% end -%>

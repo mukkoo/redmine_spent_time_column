@@ -1,16 +1,17 @@
 'ru':
-  label_calculated_spent_hours: Calculated spent time
-  label_divergent_hours: Divergent time 
-  label_calculated_remaining_hours: Calculated remaining time
-  setting_show_bottom_summary_line_on_issuelists: Display bottom summary line on issuelists
-  setting_show_bottom_summary_line_estimated_hours: Show Estimated time
-  setting_show_bottom_summary_line_spent_hours: Show Spent time
-  setting_show_bottom_summary_line_calculated_spent_hours: Show Calculated spent time
-  setting_show_bottom_summary_line_divergent_hours: Show Divergent time
-  setting_show_bottom_summary_line_calculated_remaining_hours: Show Calculated remaining time
-  setting_enable_spent_hours_column: Enable Spent time column
-  setting_enable_calculated_spent_hours_column: Enable Calculated spent time column
-  setting_enable_divergent_hours_column: Enable Divergent time column
-  setting_enable_calculated_remaining_hours_column: Enable Calculated remaining time column
-  legend_bottom_summary_line_settings: Bottom summary line settings
-  legend_column_settings: Column settings
+  label_calculated_spent_hours: Расч. затраченное время
+  label_divergent_hours: Расхождение
+  label_calculated_remaining_hours: Расч. оставшееся время
+  setting_show_bottom_summary_line_on_issuelists: Отображать суммарную строку внизу списка задач
+  setting_show_bottom_summary_line_estimated_hours: Показывать оцененное время
+  setting_show_bottom_summary_line_spent_hours: Показывать затраченное время
+  setting_show_bottom_summary_line_calculated_spent_hours: Показывать вычисленное затраченное время
+  setting_show_bottom_summary_line_divergent_hours: Показывать время расхождения
+  setting_show_bottom_summary_line_calculated_remaining_hours: Показывать вычисленное оставшееся время
+  setting_enable_spent_hours_column:  Включить столбец затраченного времени
+  setting_enable_calculated_spent_hours_column: Включить столбец вычисленного затраченного времени
+  setting_enable_divergent_hours_column: Включить столбец времени расхождения
+  setting_enable_calculated_remaining_hours_column: Включить столбец вычисленного оставшегося времени
+  legend_bottom_summary_line_settings: Настройки суммарной строки внизу списка задач
+  legend_column_settings: Настройка столбца
+  label_remaining_hours: Осталось часов
