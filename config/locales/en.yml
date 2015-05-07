@@ -14,3 +14,4 @@ en:
   setting_enable_calculated_remaining_hours_column: Enable Calculated remaining time column
   legend_bottom_summary_line_settings: Bottom summary line settings
   legend_column_settings: Column settings
+  label_remaining_hours: Remaining hours
